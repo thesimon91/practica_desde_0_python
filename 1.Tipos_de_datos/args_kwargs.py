@@ -10,3 +10,4 @@ def func2(*args):
     print(args)
     return sum(args) * 0.05
 print(func2(40,50,90,9000,31))
+
