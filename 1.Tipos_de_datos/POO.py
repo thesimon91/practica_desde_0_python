@@ -76,14 +76,7 @@ class Enemy():
 
   
 
-arco_de_madera = wood_bow()
 
-goblin = Enemy(name="Goblin",level=1,hp=10,dmg=[0,2],race=1,res=5,xp = 5)
-goblin2 = Enemy(name="Goblin",level=1,hp=10,dmg=[0,2],race=1,res=5,xp = 5)
-goblin3 = Enemy(name="Goblin",level=2,hp=13,dmg=[1,3],race=1,res=8,xp = 7)
-goblin4 = Enemy(name="Goblin",level=2,hp=15,dmg=[1,4],race=1,res=10,xp = 10)
-goblin5 = Enemy(name="Goblin",level=3,hp=22,dmg=[2,5],race=1,res=11,xp = 15)
-goblin_elite = Enemy(name="Goblin Elite",level=5,hp=30,dmg=[4,9],race=1,res=15,xp = 25)
 def goblin_fight(arma,enemigo):
     while enemigo.hp > 0:
         contador = 0
@@ -112,11 +105,6 @@ def goblin_fight(arma,enemigo):
         clean_cmd()
     
    
-goblin_fight(arco_de_madera,goblin)
-goblin_fight(arco_de_madera,goblin2)
-goblin_fight(arco_de_madera,goblin3)
-goblin_fight(arco_de_madera,goblin4)
-goblin_fight(arco_de_madera,goblin5)
-goblin_fight(arco_de_madera,goblin_elite)
+
 
     
